@@ -59,6 +59,4 @@ public class Jugadores {
         System.out.println("     " + delantero1 + "          " + delantero2 + "          " + delantero3);
     }
 
-    //imprimir info de cada jugador
-    public void imprimirInfoJugador()
 }
