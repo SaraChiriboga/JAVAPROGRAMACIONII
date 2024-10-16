@@ -60,4 +60,5 @@ public class Jugadores {
     }
 
     //imprimir info de cada jugador
+    public void imprimirInfoJugador()
 }

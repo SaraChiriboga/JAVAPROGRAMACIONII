@@ -1,5 +1,4 @@
 public class Notas {
-    String materia;
     Double N1;
     Double N2;
     Double N3;

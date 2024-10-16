@@ -29,9 +29,4 @@ public class Materias {
         this.nombreMateria = nombreMateria;
     }
 
-    //metodo para mostrar info (SOLO VA MOSTRAR EL NOMBRE DE LA MATERIA, LOS DEMAS DATOS PUEDEN SER INNECESARIOS EN CIERTO CONTEXTO)
-    public String infoMateria(String nombreMateria){
-        String infoMat = nombreMateria;
-        return infoMat;
-    }
 }

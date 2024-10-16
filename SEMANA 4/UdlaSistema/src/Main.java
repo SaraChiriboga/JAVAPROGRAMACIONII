@@ -17,6 +17,7 @@ public class Main {
         Estudiante student = new Estudiante(); //objetos generales
         Notas grades = new Notas();
         Universidad udla = new Universidad();
+        Materias mat = new Materias();
         String names, lastNames, banner, subject;
         Double n1, n2, n3, nfinal;
         String infoestudiantes, infonotas, infogeneral;
@@ -50,8 +51,8 @@ public class Main {
 
             //DATOS DE CALIFICACIONES Y MATERIA
             System.out.println("Ingrese la materia que curso: ");
-            grades.materia = rd.readLine();
-            subject = grades.materia;
+            mat.nombreMateria = rd.readLine();
+            subject = mat.nombreMateria;
             System.out.println("Calificacion del 1er progreso: ");
             grades.N1 = Double.parseDouble(rd.readLine());
             n1 = grades.N1;
